@@ -1,13 +1,29 @@
-@media(max-widht:600px){
- section{
-  background-color: antiquewhite;
-  border-radius: 10px;
-  padding: 10px;
- }
- section h2{
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 10px;
-  color: #13747d;
- }
+@media(max-width:1000px) {
+    section {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        color: #13747d;
+    }
+}
+
+@media(max-width:600px) {
+    section {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        color: #13747d;
+    }
 }

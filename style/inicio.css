@@ -1,3 +1,16 @@
+@media(max-width:1000px) {
+  article h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+  }
+
+  article h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    line-height: 2.0;
+  }
+}
+
 @media(max-width:600px) {
   article h2 {
     font-size: 1.5em;
